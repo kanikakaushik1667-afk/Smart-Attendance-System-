@@ -1,63 +1,86 @@
-# 📚 Smart Attendance System
+# 🎓 Smart Attendance System
 
-A web-based Smart Attendance System that simplifies attendance management for educational institutions. The system provides separate dashboards for teachers and students, allowing attendance tracking, class scheduling, announcements, notes, assignments, and marks management.
+<p align="center">
+  <img src="static/website.png" alt="Smart Attendance System" width="180">
+</p>
 
----
+<p align="center">
+A modern web-based <b>Smart Attendance System</b> built with <b>Flask</b> and <b>MongoDB</b> to simplify attendance management for educational institutions.
+</p>
 
-## 🚀 Features
+<p align="center">
 
-### 👨‍🏫 Teacher Module
-- Teacher Login
-- Schedule Classes
-- Enable/Disable Attendance
-- Mark Student Attendance
-- Upload Assignments
-- Upload Study Notes
-- Post Announcements
-- Manage Student Marks
-- View Attendance Records
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
+![HTML5](https://img.shields.io/badge/HTML5-Frontend-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-yellow?logo=javascript)
 
-### 👨‍🎓 Student Module
-- Student Login
-- View Attendance
-- View Class Schedule
-- Download Notes
-- View Assignments
-- Submit Assignments
-- View Announcements
-- Check Internal & External Marks
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+# 📖 Overview
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-
-### Backend
-- Python
-- Flask
-
-### Database
-- MongoDB
+Managing attendance manually is time-consuming and prone to errors. The **Smart Attendance System** provides an efficient digital platform where teachers can manage attendance, assignments, study material, announcements, and marks, while students can easily access their academic information through a user-friendly dashboard.
 
 ---
 
-## 📂 Project Structure
+# ✨ Features
+
+## 👨‍🏫 Teacher Dashboard
+
+- 🔐 Secure Login
+- 📅 Schedule Classes
+- ✅ Enable/Disable Attendance
+- 📝 Mark Student Attendance
+- 📊 View Attendance Records
+- 📢 Post Announcements
+- 📚 Upload Study Notes
+- 📄 Upload Assignments
+- 🎯 Manage Internal & External Marks
+- 🔑 Change Password
+
+---
+
+## 👨‍🎓 Student Dashboard
+
+- 🔐 Secure Login
+- 📈 View Attendance Percentage
+- 📅 View Scheduled Classes
+- 📚 Download Study Notes
+- 📄 View Assignments
+- 📢 Receive Announcements
+- 🏆 Check Internal & External Marks
+- 🔑 Change Password
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Frontend | HTML5, CSS3, JavaScript |
+| Backend | Flask (Python) |
+| Database | MongoDB |
+| Version Control | Git & GitHub |
+
+---
+
+# 📂 Project Structure
 
 ```
-Smart-Attendance-System/
+smart_attendence_system
 │
-├── static/
+├── static
 │   ├── style.css
 │   ├── login.js
-│   ├── teacher.js
 │   ├── student.js
+│   ├── teacher.js
 │   └── website.png
 │
-├── templates/
+├── templates
 │   ├── index.html
 │   ├── teacher.html
 │   ├── student.html
@@ -71,35 +94,35 @@ Smart-Attendance-System/
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/kanikakaushik1667-afk/Smart-Attendance-System-.git
 ```
 
-### Navigate to Project
+### Open Project
 
 ```bash
 cd Smart-Attendance-System-
 ```
 
-### Create Virtual Environment (Optional)
+### Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### Activate Virtual Environment
+### Activate Environment
 
-Windows
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-Mac/Linux
+**Linux / macOS**
 
 ```bash
 source venv/bin/activate
@@ -111,29 +134,21 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+### Start MongoDB
 
-## 🗄️ MongoDB Setup
-
-1. Install MongoDB Community Server.
-2. Start MongoDB.
-3. Make sure MongoDB is running on:
+Ensure MongoDB is running locally:
 
 ```
 mongodb://localhost:27017/
 ```
 
-The application automatically creates the required collections.
-
----
-
-## ▶️ Run the Project
+### Run the Application
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit
+Visit:
 
 ```
 http://127.0.0.1:5003
@@ -141,31 +156,63 @@ http://127.0.0.1:5003
 
 ---
 
-## 📷 Screenshots
+# 🖥️ Application Workflow
 
-Add screenshots of:
+```
+Teacher Login
+      │
+      ├── Schedule Classes
+      ├── Enable Attendance
+      ├── Mark Attendance
+      ├── Upload Notes
+      ├── Upload Assignments
+      ├── Post Announcements
+      └── Manage Marks
 
-- Login Page
-- Teacher Dashboard
-- Student Dashboard
-- Attendance Page
-- Marks Section
+
+Student Login
+      │
+      ├── View Attendance
+      ├── Download Notes
+      ├── View Assignments
+      ├── Check Marks
+      └── Read Announcements
+```
 
 ---
 
-## 📌 Future Improvements
+# 📸 Screenshots
 
-- Face Recognition Attendance
-- QR Code Attendance
-- Email Notifications
-- Role-Based Authentication
-- Attendance Analytics Dashboard
-- Export Attendance Reports (PDF/Excel)
-- Mobile Responsive UI
+Add screenshots here.
+
+| Login | Teacher Dashboard |
+|--------|-------------------|
+| Screenshot | Screenshot |
+
+| Student Dashboard | Attendance |
+|-------------------|------------|
+| Screenshot | Screenshot |
+
+| Marks | Assignments |
+|-------|-------------|
+| Screenshot | Screenshot |
 
 ---
 
-## 🤝 Contributing
+# 🚀 Future Enhancements
+
+- 🤖 Face Recognition Attendance
+- 📱 QR Code Attendance
+- 📧 Email Notifications
+- 📊 Attendance Analytics Dashboard
+- 📈 Performance Reports
+- 📄 Export Attendance (Excel/PDF)
+- ☁️ Cloud Deployment
+- 📲 Fully Responsive Mobile UI
+
+---
+
+# 🤝 Contributing
 
 Contributions are welcome!
 
@@ -182,7 +229,7 @@ git checkout -b feature-name
 git commit -m "Added new feature"
 ```
 
-4. Push to GitHub
+4. Push your branch
 
 ```bash
 git push origin feature-name
@@ -192,14 +239,20 @@ git push origin feature-name
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
-**Kanika Kaushik**
+## Kanika Kaushik
+
+**B.Tech Computer Science & Engineering**
+
+**Maharaja Agrasen Institute of Technology (MAIT)**
+
+### Connect with me
 
 - GitHub: https://github.com/kanikakaushik1667-afk
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub. It helps others discover the project and motivates future improvements.
