@@ -33,13 +33,12 @@ Managing attendance manually is time-consuming and prone to errors. The **Smart 
 
 - 🔐 Secure Login
 - 📅 Schedule Classes
-- ✅ Enable/Disable Attendance
 - 📝 Mark Student Attendance
 - 📊 View Attendance Records
 - 📢 Post Announcements
 - 📚 Upload Study Notes
 - 📄 Upload Assignments
-- 🎯 Manage Internal & External Marks
+- 🎯 Manage Marks
 - 🔑 Change Password
 
 ---
@@ -52,7 +51,7 @@ Managing attendance manually is time-consuming and prone to errors. The **Smart 
 - 📚 Download Study Notes
 - 📄 View Assignments
 - 📢 Receive Announcements
-- 🏆 Check Internal & External Marks
+- 🏆 Check Marks
 - 🔑 Change Password
 
 ---
