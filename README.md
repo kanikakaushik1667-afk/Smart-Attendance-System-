@@ -156,29 +156,6 @@ http://127.0.0.1:5003
 
 ---
 
-# 🖥️ Application Workflow
-
-```
-Teacher Login
-      │
-      ├── Schedule Classes
-      ├── Enable Attendance
-      ├── Mark Attendance
-      ├── Upload Notes
-      ├── Upload Assignments
-      ├── Post Announcements
-      └── Manage Marks
-
-
-Student Login
-      │
-      ├── View Attendance
-      ├── Download Notes
-      ├── View Assignments
-      ├── Check Marks
-      └── Read Announcements
-```
-
 ---
 
 # 📸 Screenshots
@@ -187,7 +164,9 @@ Add screenshots here.
 
 | Login | Teacher Dashboard |
 |--------|-------------------|
-| Screenshot | Screenshot |
+| <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3989a53f-95a9-4334-b899-a1f32f393547" />
+ | <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b044a1c3-5bae-4200-b8d0-8c121b369402" />
+ |
 
 | Student Dashboard | Attendance |
 |-------------------|------------|
