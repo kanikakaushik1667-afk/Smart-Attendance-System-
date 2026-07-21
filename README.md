@@ -1,185 +1,205 @@
-```markdown
-# 🎓 EduSmart – Smart Attendance & Student Management System
+# 📚 Smart Attendance System
 
-EduSmart is a full-stack web application built to simplify academic management for students and teachers. It provides a centralized dashboard for handling attendance, assignments, submissions, notes, announcements, and marks in a seamless and interactive way.
-
----
-
-## 📌 Overview
-
-EduSmart streamlines daily academic workflows by enabling:
-- Students to track and manage their academic activities in one place
-- Teachers to efficiently control attendance, assignments, and performance data
-- Real-time interaction between frontend and backend without page reloads
+A web-based Smart Attendance System that simplifies attendance management for educational institutions. The system provides separate dashboards for teachers and students, allowing attendance tracking, class scheduling, announcements, notes, assignments, and marks management.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-### 👨‍🎓 Student Dashboard
-- 📊 Attendance overview with circular graph
-- 📅 Mark attendance (controlled by teacher)
-- 📂 View and download assignments
-- 📤 Submit assignments with file upload
-- 🗑️ Delete submitted assignments
-- 📈 Track submission progress
-- 📚 Access notes and study material
-- 📢 View announcements
-- 📊 View marks breakdown
-- 🔔 Notifications panel
+### 👨‍🏫 Teacher Module
+- Teacher Login
+- Schedule Classes
+- Enable/Disable Attendance
+- Mark Student Attendance
+- Upload Assignments
+- Upload Study Notes
+- Post Announcements
+- Manage Student Marks
+- View Attendance Records
 
----
-
-### 👩‍🏫 Teacher Dashboard
-- ➕ Upload assignments and notes
-- 🗑️ Delete assignments and notes
-- 📅 Schedule classes
-- 🎯 Enable/disable attendance system
-- 📢 Post announcements
-- 📊 Enter and update marks
-- 👥 View student submissions
+### 👨‍🎓 Student Module
+- Student Login
+- View Attendance
+- View Class Schedule
+- Download Notes
+- View Assignments
+- Submit Assignments
+- View Announcements
+- Check Internal & External Marks
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+### Frontend
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
-- Chart.js
+- JavaScript
 
-**Backend**
-- Python (Flask)
+### Backend
+- Python
+- Flask
 
-**Database**
+### Database
 - MongoDB
 
-**Other**
-- Werkzeug (file handling)
-- LocalStorage (session-like behavior)
-
 ---
 
-## ⚙️ How It Works
-
-- Users log in as student or teacher
-- Students access a personalized dashboard
-- Teachers manage academic data and system controls
-- Data is handled via Flask APIs and stored in SQLite
-- UI updates dynamically without refreshing the page
-
----
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
-
-smart-attendence-system/
+Smart-Attendance-System/
 │
 ├── static/
-│   ├── student.js
+│   ├── style.css
+│   ├── login.js
 │   ├── teacher.js
-│   └── style.css
+│   ├── student.js
+│   └── website.png
 │
 ├── templates/
 │   ├── index.html
-│   ├── student.html
 │   ├── teacher.html
+│   ├── student.html
 │   └── change_password.html
 │
-├── uploads/
-├── database.db
 ├── app.py
-├── students.csv
-├── teacher.csv
 ├── requirements.txt
-└── README.md
-
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## 🚀 Setup Instructions
+## ⚙️ Installation
 
-### 1. Clone the repository
+### Clone the Repository
+
+```bash
+git clone https://github.com/kanikakaushik1667-afk/Smart-Attendance-System-.git
 ```
 
-git clone [https://github.com/jyotibagdi-07/smart-attendence-system.git](https://github.com/jyotibagdi-07/smart-attendence-system.git)
-cd smart-attendence-system
+### Navigate to Project
 
+```bash
+cd Smart-Attendance-System-
 ```
 
-### 2. Create virtual environment
-```
+### Create Virtual Environment (Optional)
 
+```bash
 python -m venv venv
+```
+
+### Activate Virtual Environment
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Mac/Linux
+
+```bash
 source venv/bin/activate
-
 ```
 
-### 3. Install dependencies
-```
+### Install Dependencies
 
+```bash
 pip install -r requirements.txt
-
 ```
 
-### 4. Run the server
+---
+
+## 🗄️ MongoDB Setup
+
+1. Install MongoDB Community Server.
+2. Start MongoDB.
+3. Make sure MongoDB is running on:
+
+```
+mongodb://localhost:27017/
 ```
 
+The application automatically creates the required collections.
+
+---
+
+## ▶️ Run the Project
+
+```bash
 python app.py
-
 ```
 
-### 5. Open in browser
+Open your browser and visit
+
 ```
-
-[http://localhost:5003](http://localhost:5003)
-
+http://127.0.0.1:5003
 ```
 
 ---
 
-## 📊 Highlights
+## 📷 Screenshots
 
-- Real-time UI updates without page reload
-- Interactive dashboards with data visualization
-- Secure file upload and management
-- Clean and modular code structure
-- Scalable backend using Flask
+Add screenshots of:
+
+- Login Page
+- Teacher Dashboard
+- Student Dashboard
+- Attendance Page
+- Marks Section
 
 ---
 
-## 🚧 Future Improvements
+## 📌 Future Improvements
 
-- Authentication using JWT
-- Role-based access control
-- Cloud storage integration
-- Email notifications
-- Fully responsive mobile UI
+- Face Recognition Attendance
+- QR Code Attendance
+- Email Notifications
+- Role-Based Authentication
+- Attendance Analytics Dashboard
+- Export Attendance Reports (PDF/Excel)
+- Mobile Responsive UI
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
 
 ---
 
 ## 👩‍💻 Author
 
-Lavanya Gupta  
-https://github.com/lavanyagupta-coder  
+**Kanika Kaushik**
+
+- GitHub: https://github.com/kanikakaushik1667-afk
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
-```
-
----
-
-## ✅ requirements.txt
-
-```txt
-Flask>=3.0.0
-Werkzeug>=3.0.0
-gunicorn>=21.2.0
-```
-
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
