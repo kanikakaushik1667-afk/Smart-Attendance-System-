@@ -160,13 +160,13 @@ http://127.0.0.1:5003
 
 # 📸 Screenshots
 
-Add screenshots here.
 
-| Login | Teacher Dashboard |
+
+| Login                                                                                                                                | Teacher Dashboard |
 |--------|-------------------|
-| <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3989a53f-95a9-4334-b899-a1f32f393547" />
- | <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b044a1c3-5bae-4200-b8d0-8c121b369402" />
- |
+| <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3989a53f-95a9-4334-b899-a1f32f393547" /> | <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b044a1c3-5bae-4200-b8d0-8c121b369402" />|
+                                                                                                                                        
+ 
 
 | Student Dashboard | Attendance |
 |-------------------|------------|
